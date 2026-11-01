@@ -36,13 +36,13 @@ jobs:
         run: node scripts/fetch-github.mjs
 
       - name: Generate animated contribution rings
-        run: python scripts/generate-contribution-ring.py
+        run: python scripts/generate-round-the-year.py
 
       - name: Commit refreshed data and animation
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/github.json assets/contribution-rings.gif
+          git add data/github.json assets/round-the-year.gif assets/round-the-year-v1.0.png
           if git diff --cached --quiet; then
             echo "Contribution rings are already up to date."
           else
