@@ -1,10 +1,10 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
 const username = process.env.GITHUB_USERNAME || "mb5pace";
-const token = process.env.GITHUB_TOKEN;
+const token = process.env.GH_CONTRIBUTIONS_TOKEN || process.env.GITHUB_TOKEN;
 
 if (!token) {
-  throw new Error("GITHUB_TOKEN is missing. Set it to a GitHub Actions token.");
+  throw new Error("GITHUB_TOKEN is missing. Add a GH_CONTRIBUTIONS_TOKEN repository secret (a fine-grained or classic token with read:user access).");
 }
 
 const to = new Date();
