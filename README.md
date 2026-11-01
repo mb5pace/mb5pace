@@ -10,6 +10,6 @@ Building, learning, and experimenting with technology.
 
 **Seven weekday rings · One spoke per week · Curved daily tiles**
 
-[View the v1.0.0 snapshot](./assets/round-the-year-v1.0.png) · [Version notes](./releases/round-the-year-v1.0.0.md)
+[View the v1.0.0 snapshot](./assets/round-the-year-v1.0.svg) · [Version notes](./releases/round-the-year-v1.0.0.md)
 
 </div>
