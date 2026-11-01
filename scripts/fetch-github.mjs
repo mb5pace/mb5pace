@@ -54,7 +54,7 @@ if (!response.ok) {
 const payload = await response.json();
 
 if (payload.errors?.length) {
-  throw new Error(payload.errors.map((error) => error.message).join("\\n"));
+  throw new Error(payload.errors.map((error) => error.message).join("\n"));
 }
 
 const calendar = payload.data?.user?.contributionsCollection?.contributionCalendar;
@@ -90,7 +90,7 @@ await writeFile(
     },
     null,
     2
-  ) + "\\n"
+  ) + "\n"
 );
 
 console.log(`Saved ${days.length} days and ${calendar.totalContributions} contributions for @${username}.`);
