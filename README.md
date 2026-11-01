@@ -4,10 +4,12 @@
 
 Building, learning, and experimenting with technology.
 
-## My GitHub Contributions
+## Round the year — GitHub contributions
 
-<img src="./assets/contribution-rings.gif" alt="Animated orange GitHub contribution rings for mb5pace" width="520" />
+<img src="./assets/round-the-year.gif" alt="Animated circular GitHub contribution calendar: seven weekday rings and a sweeping hand" width="100%" />
 
-*Seven weekday rings · Orange contribution levels · Updated automatically every day*
+**Seven weekday rings · One spoke per week · Curved daily tiles**
+
+[View the v1.0.0 snapshot](./assets/round-the-year-v1.0.png) · [Version notes](./releases/round-the-year-v1.0.0.md)
 
 </div>
