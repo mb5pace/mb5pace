@@ -31,7 +31,7 @@ jobs:
 
       - name: Fetch public GitHub contribution data
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_CONTRIBUTIONS_TOKEN: ${{ secrets.GH_CONTRIBUTIONS_TOKEN }}
           GITHUB_USERNAME: mb5pace
         run: node scripts/fetch-github.mjs
 
