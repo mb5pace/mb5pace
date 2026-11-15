@@ -2,7 +2,7 @@
 
 # Hi, I'm mb5pace 👋
 
-Building, learning, and experimenting with technology.
+Building, learning, and experimenting & _**Exploring**_ with technology.
 
 ## Round the year — GitHub contributions
 
